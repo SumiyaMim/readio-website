@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
-
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="relative border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-8 lg:px-2 py-5 lg:py-10">
-          <h1 className="self-center text-3xl font-normal whitespace-nowrap text-white uppercase">Readio</h1>
+        <h1 className="self-center text-3xl font-normal whitespace-nowrap text-white uppercase">Readio</h1>
         <button
           onClick={toggleNavbar}
           type="button"
@@ -27,16 +27,52 @@ function Navbar() {
         <div className={`${isOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:bg-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a href="#" className="block py-2 px-3 md:pb-1 md:border-orange-500 text-orange-500 md:font-light md:bg-transparent md:p-0 md:text-white uppercase md:border-b-[1px] text-sm" aria-current="page">Home</a>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 md:pb-1 md:border-orange-500 text-orange-500 md:font-light md:bg-transparent md:p-0 md:text-white uppercase md:border-b-[1px] text-sm"
+                    : "block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm"
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm" aria-current="page">Books</a>
+              <NavLink
+                to="/books"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 md:pb-1 md:border-orange-500 text-orange-500 md:font-light md:bg-transparent md:p-0 md:text-white uppercase md:border-b-[1px] text-sm"
+                    : "block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm"
+                }
+              >
+                Books
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm" aria-current="page">Wishlist</a>
+              <NavLink
+                to="/wishlist"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 md:pb-1 md:border-orange-500 text-orange-500 md:font-light md:bg-transparent md:p-0 md:text-white uppercase md:border-b-[1px] text-sm"
+                    : "block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm"
+                }
+              >
+                Wishlist
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm" aria-current="page">Login</a>
+              <NavLink
+                to="/login"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 md:pb-1 md:border-orange-500 text-orange-500 md:font-light md:bg-transparent md:p-0 md:text-white uppercase md:border-b-[1px] text-sm"
+                    : "block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm"
+                }
+              >
+                Login
+              </NavLink>
             </li>
           </ul>
         </div>
