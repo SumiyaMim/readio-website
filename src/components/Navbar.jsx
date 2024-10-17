@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -9,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="relative border-gray-200 dark:bg-gray-900">
+    <nav className="relative border-gray-200 dark:bg-gray-900 z-10">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-8 lg:px-2 py-5 lg:py-10">
         <h1 className="self-center text-3xl font-normal whitespace-nowrap text-white uppercase">Readio</h1>
         <button
@@ -64,15 +65,13 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                to="/login"
-                className={({ isActive }) =>
-                  isActive
-                    ? "block py-2 px-3 md:pb-1 md:border-orange-500 text-orange-500 md:font-light md:bg-transparent md:p-0 md:text-white uppercase md:border-b-[1px] text-sm"
-                    : "block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm"
-                }
+                to="/" // Navigate to home
+                className="block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm"
               >
                 Login
               </NavLink>
+            </li>
+            <li>
             </li>
           </ul>
         </div>
