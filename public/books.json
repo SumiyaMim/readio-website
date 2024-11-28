@@ -1,0 +1,69 @@
+[
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "summary": "Set during the Roaring Twenties, 'The Great Gatsby' tells the story of Jay Gatsby, a mysterious millionaire who throws extravagant parties in hopes of rekindling a lost romance with Daisy Buchanan. Narrated by Nick Carraway, the novel explores themes of love, wealth, and the American Dream. Fitzgerald critiques the shallow pursuit of materialism and success, while examining the disillusionment and moral decay of the era.",
+      "image": "https://covers.openlibrary.org/b/id/7207750-L.jpg"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "summary": "Bilbo Baggins, a quiet hobbit, is thrust into an unexpected adventure when he joins a group of dwarves and the wizard Gandalf on a quest to reclaim a stolen treasure guarded by the fearsome dragon Smaug. Along the way, Bilbo encounters trolls, elves, and goblins, ultimately discovering the hero within himself. Tolkien’s masterful world-building and enchanting storytelling make 'The Hobbit' a beloved fantasy classic.",
+      "image": "https://covers.openlibrary.org/b/id/8238363-L.jpg"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "summary": "Set in the 1930s in the racially segregated Southern United States, this novel follows Scout Finch and her father, Atticus, as they face the challenges of prejudice and injustice. Atticus, a lawyer, defends a black man, Tom Robinson, who is falsely accused of raping a white woman. Through Scout's innocent perspective, the story tackles themes of racism, morality, and the loss of innocence. It remains a poignant exploration of human behavior and ethics.",
+      "image": "https://covers.openlibrary.org/b/id/6949530-L.jpg"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "summary": "In this timeless classic, Jane Austen explores the intricacies of love, marriage, and societal expectations. Elizabeth Bennet, a strong-willed and independent young woman, initially rejects the haughty Mr. Darcy, but as they get to know each other, their feelings evolve. Austen's witty portrayal of the social hierarchies of the early 19th century, combined with her memorable characters, makes this novel a beloved tale of romance and character development.",
+      "image": "https://covers.openlibrary.org/b/id/7479032-L.jpg"
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "summary": "This philosophical novel follows Santiago, a shepherd boy from Spain, who embarks on a journey to discover the treasure he dreams of. Along the way, he learns profound lessons about listening to his heart, the importance of perseverance, and finding one’s true purpose. Coelho's work is a timeless fable about destiny, dreams, and the universal search for meaning in life.",
+      "image": "https://covers.openlibrary.org/b/id/7390901-L.jpg"
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "summary": "In a post-apocalyptic world, a father and his young son struggle to survive as they journey through a desolate landscape. The novel explores themes of survival, love, and the enduring bond between parent and child. McCarthy’s sparse and poetic prose creates a haunting atmosphere that underscores the bleakness of the world, while the relationship between the father and son remains a beacon of hope.",
+      "image": "https://covers.openlibrary.org/b/id/7442441-L.jpg"
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "summary": "In a futuristic society where humans are engineered and conditioned for specific roles, individuality is suppressed in favor of happiness and stability. Bernard Marx, an outcast, and John, a 'wild' from a reservation, question the conformity of their world. Huxley critiques the loss of freedom and the dangers of a society that prioritizes comfort and control over truth and human connection.",
+      "image": "https://covers.openlibrary.org/b/id/7868343-L.jpg"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "summary": "Narrated by the disillusioned teenager Holden Caulfield, this novel captures his experiences in New York City after being expelled from prep school. Holden struggles with the complexities of growing up, seeking meaning in a world he feels alienated from. The novel explores themes of isolation, the loss of innocence, and the search for authenticity in a world that feels increasingly phony.",
+      "image": "https://covers.openlibrary.org/b/id/7373660-L.jpg"
+    },
+    {
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "summary": "This poignant diary chronicles the life of Anne Frank, a Jewish girl who, along with her family, hid from the Nazis during World War II. Her personal reflections on her experiences, fears, and hopes give readers a deep insight into the effects of war and the resilience of the human spirit. Anne's writing continues to inspire and serve as a powerful reminder of the horrors of the Holocaust.",
+      "image": "https://covers.openlibrary.org/b/id/7415959-L.jpg"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "summary": "Victor Frankenstein, a scientist, creates a living being from body parts, but his creation, rejected and abandoned, becomes a monstrous figure seeking revenge. As the creature wrestles with its isolation and desire for acceptance, the novel explores themes of ambition, guilt, and the consequences of playing God. Shelley's 'Frankenstein' is often seen as a cautionary tale about the dangers of unchecked scientific experimentation.",
+      "image": "https://covers.openlibrary.org/b/id/7167484-L.jpg"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "summary": "Set in a dystopian future where the totalitarian government of Oceania controls every aspect of life, '1984' follows Winston Smith, a low-ranking member of the ruling Party, who secretly rebels against the oppressive regime. Through his illegal affair and attempts to overthrow the government, the novel explores themes of surveillance, censorship, and the consequences of unchecked political power. Orwell's work serves as a powerful warning against the dangers of authoritarianism.",
+      "image": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+    }
+  ]
+  
