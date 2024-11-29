@@ -1,69 +1,134 @@
 [
-    {
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "summary": "Set during the Roaring Twenties, 'The Great Gatsby' tells the story of Jay Gatsby, a mysterious millionaire who throws extravagant parties in hopes of rekindling a lost romance with Daisy Buchanan. Narrated by Nick Carraway, the novel explores themes of love, wealth, and the American Dream. Fitzgerald critiques the shallow pursuit of materialism and success, while examining the disillusionment and moral decay of the era.",
-      "image": "https://covers.openlibrary.org/b/id/7207750-L.jpg"
-    },
-    {
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "summary": "Bilbo Baggins, a quiet hobbit, is thrust into an unexpected adventure when he joins a group of dwarves and the wizard Gandalf on a quest to reclaim a stolen treasure guarded by the fearsome dragon Smaug. Along the way, Bilbo encounters trolls, elves, and goblins, ultimately discovering the hero within himself. Tolkien’s masterful world-building and enchanting storytelling make 'The Hobbit' a beloved fantasy classic.",
-      "image": "https://covers.openlibrary.org/b/id/8238363-L.jpg"
-    },
-    {
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "summary": "Set in the 1930s in the racially segregated Southern United States, this novel follows Scout Finch and her father, Atticus, as they face the challenges of prejudice and injustice. Atticus, a lawyer, defends a black man, Tom Robinson, who is falsely accused of raping a white woman. Through Scout's innocent perspective, the story tackles themes of racism, morality, and the loss of innocence. It remains a poignant exploration of human behavior and ethics.",
-      "image": "https://covers.openlibrary.org/b/id/6949530-L.jpg"
-    },
-    {
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "summary": "In this timeless classic, Jane Austen explores the intricacies of love, marriage, and societal expectations. Elizabeth Bennet, a strong-willed and independent young woman, initially rejects the haughty Mr. Darcy, but as they get to know each other, their feelings evolve. Austen's witty portrayal of the social hierarchies of the early 19th century, combined with her memorable characters, makes this novel a beloved tale of romance and character development.",
-      "image": "https://covers.openlibrary.org/b/id/7479032-L.jpg"
-    },
-    {
-      "title": "The Alchemist",
-      "author": "Paulo Coelho",
-      "summary": "This philosophical novel follows Santiago, a shepherd boy from Spain, who embarks on a journey to discover the treasure he dreams of. Along the way, he learns profound lessons about listening to his heart, the importance of perseverance, and finding one’s true purpose. Coelho's work is a timeless fable about destiny, dreams, and the universal search for meaning in life.",
-      "image": "https://covers.openlibrary.org/b/id/7390901-L.jpg"
-    },
-    {
-      "title": "The Road",
-      "author": "Cormac McCarthy",
-      "summary": "In a post-apocalyptic world, a father and his young son struggle to survive as they journey through a desolate landscape. The novel explores themes of survival, love, and the enduring bond between parent and child. McCarthy’s sparse and poetic prose creates a haunting atmosphere that underscores the bleakness of the world, while the relationship between the father and son remains a beacon of hope.",
-      "image": "https://covers.openlibrary.org/b/id/7442441-L.jpg"
-    },
-    {
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "summary": "In a futuristic society where humans are engineered and conditioned for specific roles, individuality is suppressed in favor of happiness and stability. Bernard Marx, an outcast, and John, a 'wild' from a reservation, question the conformity of their world. Huxley critiques the loss of freedom and the dangers of a society that prioritizes comfort and control over truth and human connection.",
-      "image": "https://covers.openlibrary.org/b/id/7868343-L.jpg"
-    },
-    {
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "summary": "Narrated by the disillusioned teenager Holden Caulfield, this novel captures his experiences in New York City after being expelled from prep school. Holden struggles with the complexities of growing up, seeking meaning in a world he feels alienated from. The novel explores themes of isolation, the loss of innocence, and the search for authenticity in a world that feels increasingly phony.",
-      "image": "https://covers.openlibrary.org/b/id/7373660-L.jpg"
-    },
-    {
-      "title": "The Diary of a Young Girl",
-      "author": "Anne Frank",
-      "summary": "This poignant diary chronicles the life of Anne Frank, a Jewish girl who, along with her family, hid from the Nazis during World War II. Her personal reflections on her experiences, fears, and hopes give readers a deep insight into the effects of war and the resilience of the human spirit. Anne's writing continues to inspire and serve as a powerful reminder of the horrors of the Holocaust.",
-      "image": "https://covers.openlibrary.org/b/id/7415959-L.jpg"
-    },
-    {
-      "title": "Frankenstein",
-      "author": "Mary Shelley",
-      "summary": "Victor Frankenstein, a scientist, creates a living being from body parts, but his creation, rejected and abandoned, becomes a monstrous figure seeking revenge. As the creature wrestles with its isolation and desire for acceptance, the novel explores themes of ambition, guilt, and the consequences of playing God. Shelley's 'Frankenstein' is often seen as a cautionary tale about the dangers of unchecked scientific experimentation.",
-      "image": "https://covers.openlibrary.org/b/id/7167484-L.jpg"
-    },
-    {
-      "title": "1984",
-      "author": "George Orwell",
-      "summary": "Set in a dystopian future where the totalitarian government of Oceania controls every aspect of life, '1984' follows Winston Smith, a low-ranking member of the ruling Party, who secretly rebels against the oppressive regime. Through his illegal affair and attempts to overthrow the government, the novel explores themes of surveillance, censorship, and the consequences of unchecked political power. Orwell's work serves as a powerful warning against the dangers of authoritarianism.",
-      "image": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Mindful Empathy",
+    "author": "Dr. Lisa Roberts",
+    "image": "https://i.ibb.co.com/JqjdTR8/mindful.jpg",
+    "summary": "Mindful Empathy is a groundbreaking exploration of how mindfulness practices can enhance empathy in both personal and professional relationships. Dr. Lisa Roberts blends insights from psychology, neuroscience, and mindfulness meditation to demonstrate how cultivating empathy can improve emotional intelligence and strengthen connections with others. The book outlines practical exercises to develop deeper emotional awareness and cultivate compassion. Whether in the workplace or at home, Roberts provides tools for readers to create more meaningful and compassionate interactions. By using mindfulness to manage stress, anxiety, and emotional triggers, individuals can foster greater understanding and tolerance. The book is an essential guide for those seeking to build stronger relationships and improve communication.",
+    "editor": "Michael Lee",
+    "release_date": "February 2024",
+    "features": "280 pages",
+    "language": "English"
+  },
+  {
+    "id": 2,
+    "title": "Big Magic",
+    "author": "Elizabeth Gilbert",
+    "image": "https://i.ibb.co.com/2hDfL0X/magic.jpg",
+    "summary": "Big Magic is an inspiring and empowering book by Elizabeth Gilbert that invites readers to embrace their creative potential. Gilbert explores the mysteries of creativity and the ways in which we can unlock our artistic abilities. She offers practical advice on how to overcome fears, self-doubt, and the pressure of perfectionism that often stifle creative expression. With candid stories from her own life, including her experiences writing *Eat, Pray, Love*, Gilbert shares how to foster a mindset that encourages creativity in all areas of life. This book will encourage readers to pursue their passions without fear, trusting in their own capacity for brilliance and joy.",
+    "editor": "Anna White",
+    "release_date": "April 2024",
+    "features": "320 pages",
+    "language": "English"
+  },
+  {
+    "id": 3,
+    "title": "Why We Sleep",
+    "author": "Matthew Walker",
+    "image": "https://i.ibb.co.com/vcv2WjG/sleep.jpg",
+    "summary": "In *Why We Sleep*, neuroscientist Matthew Walker delves into the science of sleep and its critical importance to our health and well-being. Drawing on decades of research, Walker explains the profound effects that sleep, or lack thereof, has on everything from memory to mood, immune function, and even life expectancy. He also uncovers why sleep is not merely a passive state, but an active and necessary function for our brain and body. Walker offers insights into how modern lifestyles have disrupted our sleep patterns, and presents strategies for improving sleep hygiene. This book is an essential read for anyone looking to enhance their physical and mental health.",
+    "editor": "Sophia Harris",
+    "release_date": "May 2024",
+    "features": "400 pages",
+    "language": "English"
+  },
+  {
+    "id": 4,
+    "title": "Nonsense",
+    "author": "Jamie Holmes",
+    "image": "https://i.ibb.co.com/8KP9HZR/nonsense.jpg",
+    "summary": "*Nonsense* by Jamie Holmes is a thought-provoking exploration of the illogical decisions humans make in everyday life. Holmes examines how irrational thinking often guides our actions and shapes the world around us. From politics to personal choices, the book challenges the notion that human behavior is always rational, shedding light on the complexities of decision-making and the biases that influence us. With a mix of psychological theory, real-world examples, and humorous anecdotes, Holmes provides an engaging read for anyone interested in understanding the quirks of the human mind.",
+    "editor": "Emily Davis",
+    "release_date": "June 2024",
+    "features": "290 pages",
+    "language": "English"
+  },
+  {
+    "id": 5,
+    "title": "Insight",
+    "author": "Tasha Eurich",
+    "image": "https://i.ibb.co.com/rtYr7qZ/insight.jpg",
+    "summary": "*Insight* by Tasha Eurich offers a comprehensive guide to understanding and improving self-awareness. Drawing from research in psychology and neuroscience, Eurich explains the two types of self-awareness—internal and external—and how mastering both can enhance your decision-making, relationships, and overall happiness. With actionable exercises and tips, *Insight* provides practical strategies for cultivating a deeper understanding of oneself. Whether in the context of leadership, personal growth, or mental health, the book demonstrates how increased self-awareness can lead to more success and fulfillment in both personal and professional life.",
+    "editor": "Rachel Johnson",
+    "release_date": "July 2024",
+    "features": "280 pages",
+    "language": "English"
+  },
+  {
+    "id": 6,
+    "title": "Invisibles",
+    "author": "David M. Levy",
+    "image": "https://i.ibb.co.com/3cXRYkQ/invisibles.jpg",
+    "summary": "*Invisibles* by David M. Levy delves into the untold stories of overlooked and marginalized communities in history. Through meticulous research, Levy uncovers the lives and contributions of individuals and groups who were once forgotten or erased from mainstream narratives. From unsung heroes of civil rights movements to pioneers in science and culture, *Invisibles* highlights the importance of recognizing the invisible forces that shape our world. The book serves as a reminder that history is made not just by those who are celebrated, but by the many whose stories have been overshadowed.",
+    "editor": "Mark Cooper",
+    "release_date": "August 2024",
+    "features": "310 pages",
+    "language": "English"
+  },
+  {
+    "id": 7,
+    "title": "Unforgivable",
+    "author": "Samantha Green",
+    "image": "https://i.ibb.co.com/D7rYKc9/unforgivable.jpg",
+    "summary": "*Unforgivable* by Samantha Green is a gripping psychological thriller that explores the complexities of guilt, revenge, and redemption. The story follows a woman who is forced to confront a painful past and the devastating choices she made. As she seeks forgiveness, she discovers that some actions cannot be undone, and the quest for absolution can sometimes lead to darker paths. The book delves into the human psyche, examining how secrets, betrayals, and unforgiven sins can shape a person's life. With unexpected twists and a haunting narrative, *Unforgivable* is a compelling read for fans of suspense and psychological drama.",
+    "editor": "Hannah Scott",
+    "release_date": "September 2024",
+    "features": "280 pages",
+    "language": "English"
+  },
+  {
+    "id": 8,
+    "title": "Hooked",
+    "author": "Nir Eyal",
+    "image": "https://i.ibb.co.com/mJyRQp7/hooked.jpg",
+    "summary": "*Hooked* by Nir Eyal explores the psychology behind habit-forming products and how businesses can create technologies that keep customers coming back. The book examines the psychological triggers that lead to habitual behavior, from social media to gaming apps, and how companies use these tactics to keep users engaged. Eyal offers insights into the ethical implications of these strategies and discusses how consumers can be more mindful of their digital consumption. By breaking down the habits of successful companies, *Hooked* provides a framework for creating products that users genuinely value without relying on manipulation or exploitation.",
+    "editor": "Jessica White",
+    "release_date": "October 2024",
+    "features": "320 pages",
+    "language": "English"
+  },
+  {
+    "id": 9,
+    "title": "Waves",
+    "author": "Ethan Patterson",
+    "image": "https://i.ibb.co.com/h1vcvSQ/waves.jpg",
+    "summary": "*Waves* by Ethan Patterson is an emotional and poignant novel about the turbulent journey of life, told through the lens of a young surfer facing personal trials. As the protagonist learns to ride the waves of the ocean, he also learns to navigate the emotional waves of life—love, loss, and the search for identity. Patterson masterfully weaves together themes of resilience and self-discovery, making the ocean a metaphor for the challenges and opportunities that life presents. With a blend of adventure and introspection, *Waves* is a powerful story of overcoming adversity and finding one's true self.",
+    "editor": "Megan Roberts",
+    "release_date": "November 2024",
+    "features": "290 pages",
+    "language": "English"
+  },
+  {
+    "id": 10,
+    "title": "Bloom",
+    "author": "Claire Adams",
+    "image": "https://i.ibb.co.com/LNdwszt/bloom.jpg",
+    "summary": "*Bloom* by Claire Adams is a heartfelt coming-of-age story about a young woman finding her place in the world. Set in a small town, the protagonist, Lily, struggles with her sense of self-worth and the pressure to conform to societal expectations. As she navigates relationships with family and friends, she learns the importance of self-acceptance and personal growth. Through vivid storytelling and richly developed characters, Adams explores themes of identity, love, and resilience. *Bloom* is an uplifting story of discovering one's own strength and learning to thrive despite life's challenges.",
+    "editor": "Linda Thomas",
+    "release_date": "December 2024",
+    "features": "310 pages",
+    "language": "English"
+  },
+  {
+    "id": 11,
+    "title": "Intellect",
+    "author": "James Beck",
+    "image": "https://i.ibb.co.com/NLhdmLd/intellect.jpg",
+    "summary": "In *Intellect*, James Beck offers a deep dive into the power of intellectual development and its role in shaping success and innovation. Drawing from fields such as psychology, philosophy, and neuroscience, Beck discusses how individuals can cultivate sharper thinking, creativity, and problem-solving abilities. The book explores the importance of curiosity, critical thinking, and continuous learning in both personal and professional life. Through real-life examples of great thinkers and innovators, Beck illustrates how a strong intellectual foundation can lead to breakthroughs and lasting achievements.",
+    "editor": "Oliver Lane",
+    "release_date": "January 2025",
+    "features": "290 pages",
+    "language": "English"
+  },
+  {
+    "id": 12,
+    "title": "Smart Work",
+    "author": "Rachel Adams",
+    "image": "https://i.ibb.co.com/Pg6sXtS/smart.jpg",
+    "summary": "*Smart Work* by Rachel Adams presents a comprehensive guide to working efficiently and achieving success without burning out. The book emphasizes the importance of smart strategies over hard work and explores how to prioritize tasks, manage time effectively, and focus on high-impact activities. Adams combines practical advice with research on productivity and work-life balance, offering tips for both professionals and entrepreneurs. Readers will learn how to work smarter, not harder, and how to build a sustainable career without sacrificing personal well-being.",
+    "editor": "Sophia Taylor",
+    "release_date": "February 2025",
+    "features": "300 pages",
+    "language": "English"
+  }
+]
