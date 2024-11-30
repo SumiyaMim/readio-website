@@ -33,14 +33,14 @@ const Book = () => {
                 <div>
                     <div className="flex justify-between items-center">
                         <div>
-                            <h1 className="text-3xl font-bold text-gray-800 mb-2">{book.title}</h1>
+                            <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">{book.title}</h1>
                         </div>
-                        <div className="text-4xl cursor-pointer" onClick={handleAddToWishlist}>
+                        <div className="text-3xl md:text-4xl cursor-pointer" onClick={handleAddToWishlist}>
                             <MdOutlineBookmarks />
                         </div>
                     </div>
-                    <h2 className="text-lg font-semibold text-gray-500 mb-8">{book.author}</h2>
-                    <p className="text-gray-700 leading-relaxed text-justify text-base mb-20">{book.summary}</p>
+                    <h2 className="md:text-lg font-semibold text-gray-500 mb-8">{book.author}</h2>
+                    <p className="text-gray-700 leading-relaxed text-justify text-sm md:text-base mb-20">{book.summary}</p>
                     <hr className="border-[1.5px]" />
                     <div className="flex flex-col md:flex-row justify-between py-8 text-sm md:gap-10">
                         <div className="md:w-3/5">
