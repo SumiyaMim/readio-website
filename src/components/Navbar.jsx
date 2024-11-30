@@ -53,14 +53,14 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                to="/wishlist"
+                to="/wishlists"
                 className={({ isActive }) =>
                   isActive
                     ? "block py-2 px-3 md:pb-1 md:border-orange-500 text-orange-500 md:font-light md:bg-transparent md:p-0 md:text-white uppercase md:border-b-[1px] text-sm"
                     : "block py-2 px-3 md:font-light md:bg-transparent md:p-0 md:text-white uppercase text-sm"
                 }
               >
-                Wishlist
+                Wishlists
               </NavLink>
             </li>
             <li>

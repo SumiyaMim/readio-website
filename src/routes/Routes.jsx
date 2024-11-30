@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import App from "../App";
 import Books from "../pages/Books";
-import Wishlist from "../pages/Wishlist";
+import Wishlists from "../pages/Wishlists";
 import Book from "../pages/Book";
 
 const router = createBrowserRouter([
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
                 loader: () => fetch(`/books.json`)
             },
             {
-                path: '/wishlist',
-                element: <Wishlist></Wishlist>,
+                path: '/wishlists',
+                element: <Wishlists></Wishlists>,
             },   
         ]
     },
