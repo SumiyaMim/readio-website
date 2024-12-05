@@ -10,5 +10,5 @@
 - Javascript
 - React.js
 - LocalStorage
-- Packages - react-router-dom, react-icons, react-hot-toasT, lottie-react
+- Packages - react-router-dom, react-icons, react-hot-toast, lottie-react
 
